@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+.background {
+  background-image: url("assets/main page gif.gif") ;
+  background-position: center;
+  background-size: cover;
+  overflow: visible;
+}
+
+
+header {
+    background-color: yellow;
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 200px;
+    background-color: #333;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.cta-btn {
+    background-color: yellow;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+}
+
+.feature {
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: yellow;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.product-list, .shop {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.product img {
+    width: 200px;
+    height: 200px;
+}
+
+.product h3 {
+    margin: 10px 0;
+}
+
+button {
+    background-color: yellow;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+    color: yellow;
+}
+
+/* Add this to your styles.css file */
+
+.scrolling-text {
+    position: absolute;
+    bottom: 10px; /* Adjust the vertical position as needed */
+    white-space: nowrap;
+    font-size: 1.5rem;
+    color: yellow;
+    font-weight: bold;
+    padding-left: 100%; /* Start the text off-screen */
+    transition: transform 0.1s ease-in-out; /* Optional, smoothness for transition */
+}
